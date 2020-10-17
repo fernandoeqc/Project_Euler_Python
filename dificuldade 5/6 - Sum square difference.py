@@ -8,9 +8,10 @@ numbers and the square of the sum is .
 Find the difference between the sum of the squares of the first one hundred natural 
 numbers and the square of the sum. """
 
+
 def sumSquares(numero):
     soma = 0
-    for i in range(1,numero+1):
+    for i in range(1, numero+1):
         soma += i ** 2
     
     return soma
@@ -18,7 +19,7 @@ def sumSquares(numero):
 
 def squaresSum(numero):
     soma = 0
-    for i in range(1,numero+1):
+    for i in range(1, numero+1):
         soma += i
     return soma ** 2
 
